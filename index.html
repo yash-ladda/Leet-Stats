@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leet Stats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Leet Stats</h1>
+
+        <div class="user-container">
+            <p style="font-size: 20px; font-weight: 900;">Enter username below</p>
+            <div class="user-input-container">
+                <input type="text" placeholder="Username" id="user-input">
+                <button id="search-button">SEARCH</button>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="progress">
+
+                <div class="progress-item">
+                    <div class="easy-progress circle">
+                        <span id="easy-label" class="circle-text"></span>
+                        <p id="easy-name">Easy</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="medium-progress circle">
+                        <span id="medium-label" class="circle-text"></span>
+                        <p id="medium-name">Medium</p>
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="hard-progress circle">
+                        <span id="hard-label" class="circle-text"></span>
+                        <p id="hard-name">Hard</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="stats-card">
+                <!-- directly populate cards here from js code -->
+                 <div class="cards"></div>
+                 <div class="cards"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
